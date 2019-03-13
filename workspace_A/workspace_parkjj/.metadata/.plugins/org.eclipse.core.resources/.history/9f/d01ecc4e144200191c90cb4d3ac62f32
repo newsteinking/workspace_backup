@@ -1,0 +1,11 @@
+def first_reverse(str):
+    aa=list(reversed(str))
+    print(aa)
+    bb=''.join(aa)
+    return bb
+print(first_reverse("12345"))
+
+#54321
+
+# str ==> list    str.split()   str.split(" ")
+#list ==> str     ''.join(list)

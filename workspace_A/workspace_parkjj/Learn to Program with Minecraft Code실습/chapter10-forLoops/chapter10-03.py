@@ -1,0 +1,10 @@
+from mcpi.minecraft import Minecraft
+import time
+logan=Minecraft.create()
+
+colors=[14, 1, 4, 5, 3, 11, 10]
+x,y,z=logan.player.getPos()
+for color in colors:
+    logan.setBlock(x+3,y,z,35,color)
+    y+=1
+    time.sleep(0.3)

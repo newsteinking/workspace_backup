@@ -1,0 +1,17 @@
+from mcpi.minecraft import Minecraft
+mc=Minecraft.create()
+import time
+
+x,y,z=mc.player.getPos()
+places={}
+
+places['a']=(x+3,y,z)
+
+places['b']=(x-3,y,z)
+
+places['c']=(x,y,z+3)
+
+places['d']=(x,y,z-3)
+
+print(places)
+#dic={'name':'dddd','age':34,'job':'teacher'}

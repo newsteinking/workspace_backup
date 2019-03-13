@@ -1,0 +1,8 @@
+lista=[0,1,2,3]
+listb=["test","test2"]
+listc=[True,False]
+print(len(lista))
+print(listb[1])
+
+for i in lista:
+    print(i)

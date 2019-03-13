@@ -1,0 +1,9 @@
+def cap(str):
+    words=str.split(" ")
+    result=[]
+    for word in words:
+        #word.capitalize()
+        #result.append(word)
+        result.append(word.capitalize)
+potato="i love potato"
+cap(potato)

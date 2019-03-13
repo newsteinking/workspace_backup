@@ -1,0 +1,8 @@
+def cap(str):
+    words=str.split(" ")
+    
+    print(words)
+    
+    
+potato="i love potato"
+cap(potato)

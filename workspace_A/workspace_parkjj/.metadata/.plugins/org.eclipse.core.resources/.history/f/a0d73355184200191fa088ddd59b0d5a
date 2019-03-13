@@ -1,0 +1,15 @@
+a=int(input("input your A:"))
+b=int(input("input your B:"))
+c=b #c=9 b=9
+b=a #b=1 a=1
+a=c #a=9 c=9
+print(a,b)
+
+
+'''
+a=12
+b=34
+a=a+b #a=46
+b=a-b #b=12
+a=a-b #a=34
+print(a,b)

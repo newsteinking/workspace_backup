@@ -1,0 +1,10 @@
+lista=[4,5,6,7]
+listb=["test","test2"]
+listc=[True,False]
+print(len(lista))
+print(listb[1])
+
+for count,i in enumerate(lista):
+    print(i)
+    print(count)
+    

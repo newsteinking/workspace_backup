@@ -1,0 +1,7 @@
+from mcpi.minecraft import Minecraft
+mc=Minecraft.create()
+mc.postToChat("Re")
+x=3
+y=4
+z=5
+mc.postToChat(x)

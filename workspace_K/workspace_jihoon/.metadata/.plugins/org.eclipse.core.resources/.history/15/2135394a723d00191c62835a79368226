@@ -1,0 +1,7 @@
+from mcpi.minecraft import Minecraft
+mc=Mincraft.create()
+import time
+import random
+x,y,z=mc.player.getPos()
+while True:
+    

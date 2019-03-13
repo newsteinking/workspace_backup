@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Learn to Program with Minecraft Code실습/chapter7-whileLoops/chapter7_4.py&apos; to &apos;Python1_3.py&apos;" description="Rename resource &apos;chapter7_4.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="chapter7-whileLoops/chapter7_4.py" name="Python1_3.py" stamp="1549087162604" updateReferences="true"/>
+</session>

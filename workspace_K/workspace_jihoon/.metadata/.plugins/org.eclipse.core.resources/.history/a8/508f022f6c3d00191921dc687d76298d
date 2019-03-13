@@ -1,0 +1,11 @@
+a=10
+lista=[]
+a=10
+b="test"
+c=True
+lista=[1,2,3,4]
+listb=["test","test2"]
+listc=[True,False]
+print(lista)
+print(listb)
+print(listc)

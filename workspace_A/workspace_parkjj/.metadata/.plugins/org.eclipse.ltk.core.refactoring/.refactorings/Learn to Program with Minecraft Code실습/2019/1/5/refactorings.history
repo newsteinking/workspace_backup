@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Learn to Program with Minecraft Code실습/chapter4-strings/chapter4-2&apos; to &apos;chapter4-2.py&apos;" description="Rename resource &apos;chapter4-2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="chapter4-strings/chapter4-2" name="chapter4-2.py" stamp="1548812305611" updateReferences="true"/>
+</session>

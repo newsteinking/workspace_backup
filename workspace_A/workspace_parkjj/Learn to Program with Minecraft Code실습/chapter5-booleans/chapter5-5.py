@@ -1,0 +1,11 @@
+x=int(12e4)
+print(x)
+x=int(12E4)
+print(x)
+a=float(10)
+b="jealous"
+print(type(a))
+print(type(b))
+print(id(a))
+a=int(20)
+print(id(a))

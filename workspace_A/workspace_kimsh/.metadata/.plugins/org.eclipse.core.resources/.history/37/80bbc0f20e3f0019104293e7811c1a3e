@@ -1,0 +1,10 @@
+def sum_list(slist):
+    result=1
+    for i in slist:
+        result=result*i
+    return result
+a=[3,4,6,9] 
+print(sum_list(a))
+
+def Nsum(n):
+    

@@ -1,0 +1,11 @@
+from mcpi.minecraft import Minecraft
+mc=Minecraft.create()
+import time
+import random
+
+x,y,z=mc.player.getPos()
+blocks=[1,14,103,41,42,22,57]
+
+for i in range(6):
+    block=random.choice(blocks)
+    mc.setBlock(x+2,y+i,z,block)

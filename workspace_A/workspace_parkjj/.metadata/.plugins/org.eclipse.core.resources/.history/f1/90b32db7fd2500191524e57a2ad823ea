@@ -1,0 +1,15 @@
+from mcpi.minecraft import Minecraft
+logan=Minecraft.create()
+import time
+
+pos=logan.player.getPos()
+x=pos.x
+y=pos.y
+z=pos.z
+blocktype=114
+up=1
+for i in range(0,20):
+    logan.setBlocks(x-up,y+i,z+i,x+up,y+i,z+i,blocktype)
+    logan.postToChat("{}stairs".format(i))
+    time.sleep(0.2)
+    

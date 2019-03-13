@@ -1,0 +1,37 @@
+from mcpi.minecraft import Minecraft
+from mcpi import block
+import time
+import random
+logan=Minecraft.create()
+x,y,z=logan.player.getPos()
+tile_m=1
+fence=block.FENCE.id
+gold=block.GOLD_BLOCK.id
+trap=block.LAVA_STATIONARY.id
+grass=2
+logan.setPos(x,y,z)
+#===============================================================================SETTING
+def making(x,y,z):
+    for i in range(1,15):
+        logan.setBlock(x,y,z+i,fence)
+        time.sleep(0.1)
+making(x+7,y,z-7)
+def making(x,y,z):
+    for i in range(1,15):
+        logan.setBlock(x-i,y,z,fence)
+        time.sleep(0.1)
+making(x+7,y,z+7)
+def making(x,y,z):
+    for i in range(1,15):
+        logan.setBlock(x,y,z-i,fence)
+        time.sleep(0.1)
+making(x-7,y,z+7)
+def making(x,y,z):
+    for i in range(1,15):
+        logan.setBlock(x+i,y,z,fence)
+        time.sleep(0.1)
+making(x-7,y,z-7)
+
+logan.setBlocks(x+7,y-1,z+7,x-7,y-1,z-7,tile_m)
+logan.player.setPos(x,y,z)
+#===============================================================================FENCE/TILE

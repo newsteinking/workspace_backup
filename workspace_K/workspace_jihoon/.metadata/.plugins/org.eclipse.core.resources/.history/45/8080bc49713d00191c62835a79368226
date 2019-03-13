@@ -1,0 +1,4 @@
+tuplea=()
+tuplea.add("test")
+tuplea.add("test2")
+print(tuplea)

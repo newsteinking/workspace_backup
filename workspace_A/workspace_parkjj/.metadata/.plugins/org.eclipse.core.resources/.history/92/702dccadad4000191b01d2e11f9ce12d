@@ -1,0 +1,10 @@
+from mcpi.minecraft import Minecraft
+logan=Minecraft.create()
+import time
+
+
+while True:
+    pos=logan.player.getPos()
+    x,y,z=logan.player.setPos()
+    logan.setBlock(x,y-1,z,10)
+    logan.setBlock(x,y-1,z,9)

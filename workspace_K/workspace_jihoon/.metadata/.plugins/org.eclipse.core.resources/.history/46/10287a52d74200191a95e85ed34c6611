@@ -1,0 +1,27 @@
+from mcpi.minecraft import Minecraft
+mc=Minecraft.create()
+import time
+
+x,y,z=mc.player.getPos()
+places={}
+
+places['a']=(x+3,y,z)
+
+places['b']=(x-3,y,z)
+
+places['c']=(x,y,z+3)
+
+places['d']=(x,y,z-3)
+
+print(places)
+
+for choice in places:
+    if choice=='a':
+        mc.setBlock(places['a'],22)
+    elif choice=='b':
+        mc.setBlock(places['b'],42)
+    elif choice=='c':
+        mc.setBlock(places['c'],57)
+    elif choice=='d':
+        mc.setBlock(places['d'],41)
+#dic={'name':'dddd','age':34,'job':'teacher'}s

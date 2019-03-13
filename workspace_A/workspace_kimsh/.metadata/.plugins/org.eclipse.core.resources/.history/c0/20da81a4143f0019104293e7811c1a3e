@@ -1,0 +1,10 @@
+def aqdlist(llist):
+    newlist=[]
+    result=0
+    for i in llist:
+        result=result+i
+        newlist.append(result)
+    return newlist
+a=[2,4,6,8,9]
+#b=[2,6,12,20,29]
+print(aqdlist(a))

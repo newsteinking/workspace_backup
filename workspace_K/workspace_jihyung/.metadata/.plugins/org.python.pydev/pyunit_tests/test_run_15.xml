@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="1" failures="0" finished="true" name="Test Run: 15" tests="0" total_time="null"/>
+<test location="D:/OneDrive/One_new/OneDrive - leverage innovative users/workspace/workspace_K/workspace_jihyung/python/python_minecraft/Learn to Program with Minecraft Code&amp;#49892;&amp;#49845;/chapter4-strings/test1.py" status="error" test="test1" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\&#51060;&#51648;&#54805;\.p2\pool\plugins\org.python.pydev.core_7.0.3.201811082356\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "D:\OneDrive\One_new\OneDrive - leverage innovative users\workspace\workspace_K\workspace_jihyung\python\python_minecraft\Learn to Program with Minecraft Code&#49892;&#49845;\chapter4-strings\test1.py", line 16, in <module>
+    blocktype=int(input("input your block number:"))
+  File "C:\Users\&#51060;&#51648;&#54805;\.p2\pool\plugins\org.python.pydev.core_7.0.3.201811082356\pysrc\pydev_sitecustomize\sitecustomize.py", line 199, in input
+    ret = original_input(prompt)
+EOFError: EOF when reading a line
+ERROR: Module: test1 could not be imported (file: D:/OneDrive/One_new/OneDrive - leverage innovative users/workspace/workspace_K/workspace_jihyung/python/python_minecraft/Learn to Program with Minecraft Code&#49892;&#49845;/chapter4-strings/test1.py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="python chapter4-strings"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

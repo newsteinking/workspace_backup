@@ -1,0 +1,35 @@
+from mcpi.minecraft import Minecraft
+mc=Minecraft.create()
+import time
+import random
+
+
+blocks=[56,67,42,36,98]
+
+#block=ramdom.choice(blocks)
+
+x,y,z=mc.player.getPos()
+
+for i in range(6):
+    block=random.choice(blocks)
+    mc.setBlock(x+5,y+i,z+2,block)
+ 
+for block in bloks:
+    mc.setBlock(x+10,y,z,block)
+    y+=1
+
+for count,block in enumerate(blocks):
+    mc.setBlock(x+3,y+count,z,block) 
+    
+    
+for blocks in enumerate(blocks):
+    print(blocks)
+    #mc.setBlock(x+3,y+count,z+10,block)    
+   
+#===============================================================================
+# count=0 
+# while cout <6:
+#     
+#     cout+=1
+#     
+#===============================================================================

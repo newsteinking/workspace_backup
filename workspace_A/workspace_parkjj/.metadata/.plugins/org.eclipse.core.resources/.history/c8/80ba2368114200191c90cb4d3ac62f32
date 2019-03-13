@@ -1,0 +1,7 @@
+print("hello! :D")
+
+#'hello'
+a="'hello'"
+print(a)
+print("'hello'")
+print('"hello"')

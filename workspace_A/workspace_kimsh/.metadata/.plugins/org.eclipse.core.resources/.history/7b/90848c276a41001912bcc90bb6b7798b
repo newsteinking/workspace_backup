@@ -1,0 +1,15 @@
+def panlindrome(number):
+    number1=str(number)
+    number2=str(number)[::-1]
+    return number1==number2
+print(panlindrome(23))
+#====================================
+def panlindrome2(number):
+    length=0
+    while not panlindrome(number):
+        
+        number=number+int(str(number)[::-1])
+        length+=1
+        
+    return length
+        

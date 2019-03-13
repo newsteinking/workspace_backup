@@ -1,0 +1,14 @@
+from mcpi.minecraft import Minecraft
+logan=Minecraft.create()
+import time
+
+pos=logan.player.getPos()
+x=pos.x
+y=pos.y
+z=pos.z
+blocktype=2
+up=1
+for i in range(1,5):
+    logan.postToChat(i)
+    logan.setBlocks(x-up,y+i,z+i,x+up,y+i,z+i,blocktype)
+    

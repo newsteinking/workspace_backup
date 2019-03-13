@@ -1,0 +1,31 @@
+from mcpi.minecraft import Minecraft
+from mcpi import block
+import time
+import random
+logan=Minecraft.create()
+x,y,z=logan.player.getPos()
+#===============================================================================SETTING
+def making(x,y,z):
+    for i in range(1,14):
+        logan.setBlock(x,y,z+i,fence)
+        time.sleep(0.1)
+making(x+4,y,z-4)
+def making(x,y,z):
+    for i in range(1,14):
+        logan.setBlock(x-i,y,z,fence)
+        time.sleep(0.1)
+making(x+4,y,z+4)
+def making(x,y,z):
+    for i in range(1,14):
+        logan.setBlock(x,y,z-i,fence)
+        time.sleep(0.1)
+making(x-4,y,z+4)
+def making(x,y,z):
+    for i in range(1,14):
+        logan.setBlock(x+i,y,z,fence)
+        time.sleep(0.1)
+making(x-4,y,z-4)
+
+logan.setBlocks(x+4,y-1,z+4,x-4,y-1,z-4,tile_m)
+logan.player.setPos(x,y,z)
+#===============================================================================FENCE/TILE

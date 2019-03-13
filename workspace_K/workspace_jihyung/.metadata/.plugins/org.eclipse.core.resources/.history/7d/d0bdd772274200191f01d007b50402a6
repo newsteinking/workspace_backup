@@ -1,0 +1,16 @@
+a="2018-03-09"
+
+
+#string slicing
+#print(a[start:end])
+print(a[0:4])
+print(a[5:7])
+print(a[8:10])
+
+
+# a[  x : x :x]
+
+b="abcdefg"
+print(b[::-1])
+print(b[:])
+print(b[])

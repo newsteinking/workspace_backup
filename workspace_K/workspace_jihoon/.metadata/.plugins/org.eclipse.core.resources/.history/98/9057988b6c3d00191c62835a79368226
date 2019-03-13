@@ -1,0 +1,6 @@
+lista=[0,1,2,3]
+listb=["test","test2"]
+listc=[True,False]
+
+
+print(listb[2])

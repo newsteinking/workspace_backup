@@ -1,0 +1,4 @@
+sleep
+eat
+study
+play

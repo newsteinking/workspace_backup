@@ -1,0 +1,11 @@
+print("XD")
+
+toDoFile=open("todolist.txt","w")
+
+toDoList=""
+
+todoItem=input("todo Item:")
+
+while todoItem != "exit":
+    toDoList=
+    

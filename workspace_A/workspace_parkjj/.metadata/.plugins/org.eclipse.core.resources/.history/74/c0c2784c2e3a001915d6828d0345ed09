@@ -1,0 +1,20 @@
+from mcpi.minecraft import Minecraft
+import time
+import random
+def brockenblock():
+    brockenblocks=[48,67,4,4,4,4]
+    block=random.choice(brockenblocks)
+    return block
+x,y,z=logan.player.getPos()
+brockenwalls=[]
+height=5
+witdh=10
+for i in range(height):
+    brokenwalls.append([])
+    for j in range(witdh):
+        block=brokenBlock()
+        brokenwalls[i].append(block)
+        
+print(brokenwalls)
+        
+    

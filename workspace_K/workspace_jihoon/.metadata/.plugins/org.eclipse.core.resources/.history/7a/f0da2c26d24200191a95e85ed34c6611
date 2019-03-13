@@ -1,0 +1,6 @@
+x="2018-03-10"
+
+
+#print(x[start:end])
+print(x[0:4])
+print(x[5:7])

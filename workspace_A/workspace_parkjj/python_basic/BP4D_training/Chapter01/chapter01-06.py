@@ -1,0 +1,23 @@
+'''
+a=1
+b=5
+my_list=[a,2,3,4,b]
+a,b=b,a
+my_list=[a,2,3,4,b]
+print(my_list)
+'''
+
+my_list=[1,2,3,4,5]
+
+n=len(my_list)
+temp=my_list[0]   # temp =1
+my_list[0]=my_list[n-1]  # 5
+my_list[n-1]=temp
+print(my_list)
+
+'''
+my_list[0],my_list[n-1]=my_list[n-1],my_list[0]
+print(my_list)
+'''
+
+#dic={key:value,key2:value}

@@ -1,0 +1,9 @@
+from mcpi.minecraft import Minecraft
+from mcpi import block
+mc=Minecraft.create()
+import time
+x,y,z=mc.player.getPos()
+front=10
+
+mc.setBlocks(x+front,y,z,x+front+6,y+6,z+6,block.WOOL.id,0)
+mc.setBlocks(x+front+1,y+1,z+1,x+front+1+4,y+1+4,z+1+4,0)

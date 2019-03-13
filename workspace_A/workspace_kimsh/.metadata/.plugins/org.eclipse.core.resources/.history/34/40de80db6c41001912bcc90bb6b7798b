@@ -1,0 +1,5 @@
+str="tomato potato pineapple carrot watermelon hello @#$%^&*()?!||"
+def longest_word(str):
+    for w in str:
+        print(w)
+longest_word(str)

@@ -1,0 +1,6 @@
+from mcpi.minecraft import Minecraft
+import time
+logan=Minecraft.create()
+lists=[[1],[2,2],[3,3,3],[4,4,4,4],[5,5,5,5,5]]
+x,y,z=logan.player.getPos()
+

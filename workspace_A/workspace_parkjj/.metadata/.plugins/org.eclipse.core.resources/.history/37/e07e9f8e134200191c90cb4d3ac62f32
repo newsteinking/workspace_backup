@@ -1,0 +1,7 @@
+def first_reverse(str):
+    aa=str.reverse()
+    print(aa)
+print(first_reverse("12345"))
+
+#54321
+    

@@ -1,0 +1,9 @@
+from mcpi.minecraft import Minecraft
+mc=Minecraft.create()
+x=10
+y=10
+z=10
+mc.postToChat(x)
+mc.player.setTilePos(x,y,z)
+name=input("what's your name:")
+print("Name:{}".fomat(name))

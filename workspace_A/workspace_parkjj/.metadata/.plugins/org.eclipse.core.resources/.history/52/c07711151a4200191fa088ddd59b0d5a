@@ -1,0 +1,6 @@
+a=1
+b=5
+my_list=[a,2,3,4,b]
+a,b=b,a
+my_list=[a,2,3,4,b]
+print(my_list)

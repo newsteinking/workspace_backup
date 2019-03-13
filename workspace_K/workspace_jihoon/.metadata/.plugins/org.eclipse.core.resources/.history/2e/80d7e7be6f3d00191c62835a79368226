@@ -1,0 +1,8 @@
+from mcpi.minecraft import Minecraft
+mc=Minecraft.create()
+import time
+
+x,y,z=mc.player.getPos()
+front=2
+blocks=[1,103,1,103,1,103,1,103,1,103]
+mc.setBlock(x+front,y,z+front,blocks[0])
